@@ -55,3 +55,31 @@ more description
 	you want only those with the correct user name and password to have access
 	apache2.conf has to be overridden to change Allow Override None to Allow override all
 	**see directions with Dr. Burns syslib book**
+
+##### Install Wordpress
+
+	**check requirements needed to install
+
+	php --version
+	mysql --version
+
+	change to /var/www/html and use the commands
+	
+	sudo wget https://wordpress.org/latest.tar.gz
+	sudo tar -xzvf latest.tar.gz
+
+	switch to root linux user and log in as the mysql root user
+	**be careful as root user**
+
+	set up wp-conf.php
+	add database name, user, password into wp-conf.php
+
+	change the file ownership
+
+	install wordpress
+	detailed instructions at https://developer.wordpress.org/advanced-administration/before-install/howto-install/
+
+	then customize your page
+
+
+

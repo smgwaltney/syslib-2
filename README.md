@@ -42,3 +42,16 @@ more description
 	(author, title, publisher, copyright) values
 	('Emma Donoghue', 'Room', 'Little, Brown \& Company', '2010-08-06'),
 	('Zadie Smith', 'White Teeth', 'Hamish Hamilton', '2000-01-27');
+
+#### Cataloging in the OPAC
+
+	Create a page index.html and a php script (see Dr. Burns code)
+	*make sure to change IP address to your own*
+	
+	use the php script to connect with mysql
+	enter the books table within mysql database
+
+	**security**
+	you want only those with the correct user name and password to have access
+	apache2.conf has to be overridden to change Allow Override None to Allow override all
+	**see directions with Dr. Burns syslib book**
